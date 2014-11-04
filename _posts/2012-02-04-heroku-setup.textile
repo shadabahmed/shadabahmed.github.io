@@ -2,8 +2,9 @@
 layout: post
 title: "Setting up your RoR app on Heroku"
 description: ""
-category:
+category: rails
 tags: [heroku, rails]
+permalink: blog/2012/02/04/heroku-setup
 ---
 {% include JB/setup %}
 
@@ -69,7 +70,7 @@ p. Also setup C-Name record for your domain www.yourdomain.com
 
 That's it. You app has been setup and you can access it using http://yourdomain.com .
 
-You might want to optimize your site after this. See my post for setting up backups, analytics and performance tuning of your app on Heroku - **"Tuning Heroku":http://shadabahmed.com/blog/2012/02/15/heroku-tuning**
+You might want to optimize your site after this. See my post for setting up backups, analytics and performance tuning of your app on Heroku - **"Tuning Heroku":/blog/2012/02/15/heroku-tuning**
 
 Good Luck!
 

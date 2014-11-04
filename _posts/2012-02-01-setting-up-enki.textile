@@ -2,7 +2,7 @@
 layout: post
 title: "Setting Up Enki"
 description: ""
-category:
+category: rails
 tags: [heroku, rails, enki]
 permalink: blog/2012/02/01/setting-up-enki
 ---
@@ -61,4 +61,4 @@ Now test the app locally - @rails s@
 
 Open "http://localhost:3000/admin":http://localhost:3000/admin and enter your Open ID url. This will ask for authentication and you are through. You can also skip this in development mode.
 
-If you wish to host this at heroku, see my post on setting up RoR app at heroku - **"here":http://shadabahmed.com/blog/2012/02/04/heroku-setup**
+If you wish to host this at heroku, see my post on setting up RoR app at heroku - **"here":/blog/2012/02/04/heroku-setup**

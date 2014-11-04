@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Cool JavaScript Tools"
+description: ""
+category: javascript
+tags: [javascript]
+permalink: blog/2012/03/02/js-tools
+---
+{% include JB/setup %}
+I just wanted to mention some of the cool JS tools I came across:
+
+* *"Google Closure Compiler":http://closure-compiler.appspot.com/home* - Use this to minify or prettify(unminify) any javascript. It can also reoptimize your javascript with variable renaming etc.
+
+Here's an example of code I unminified(js from facebook):
+*Before*
+
+bc.. function ChatOptions(a,b){this._jslog=JSLogger.create('chat_options');this._jslog.log('server',{vis:a});this.visibility=!!a;this._lastVisibilityChangeTime=0;this.settings=b;}
+
+p. *After*
+
+bc.. function ChatOptions(b, a) {
+  this._jslog = JSLogger.create("chat_options");
+  this._jslog.log("server", {vis:b});
+  this.visibility = !!b;
+  this._lastVisibilityChangeTime = 0;
+  this.settings = a
+}
+
+p. Note that the compiler even rearranged the arguments list. Similarly you can compress javascript code using Clojure, which generates logically same code, however it will be more optimized for saving space. Google has provided full api for clojure compiler which you can see *"here":https://developers.google.com/closure/compiler/*
+
+* *"JSFiddle":http://jsfiddle.net/* : This is an online environment where you cam create HTML, JS and play around with it. It even supports adding jQuery, prototype and other popular js libraries. What's even more cool ? You can even save the snippets and share with other people, just like *"Pastebin":http://pastebin.com/* or *"Github Gist":https://gist.github.com/*. They also have great examples you can see to get started.
+
+So have fun and happy coding :)

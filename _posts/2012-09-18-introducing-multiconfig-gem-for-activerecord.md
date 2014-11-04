@@ -4,6 +4,7 @@ title: "Introducing MultiConfig gem for ActiveRecord"
 description: ""
 category: rails
 tags: [rails, gem]
+permalink: blog/2012/09/18/introducing-multiconfig-gem-for-activerecord
 ---
 {% include JB/setup %}
 If you need your model to use a different database from the default databases(production, development etc.) then you have to call method `establish_connection` in the model. The parameters are either complete database config or a key name as specified in database.yml like *other_test* or *other_production* etc. If u need it to dynamically change according to the environment then you write:

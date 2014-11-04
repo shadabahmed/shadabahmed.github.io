@@ -4,6 +4,7 @@ title: "MAC OS X 10.8 VPN Connectivity Fix"
 description: ""
 category: mac
 tags: [mac]
+permalink: blog/2012/10/19/mac-os-x-10-8-vpn-connectivity-fix
 ---
 {% include JB/setup %}
 I recently updated my MAC OS X version to 10.8.2. After this update, my VPN started having random issues. Sometimes while connecting it would show me **_authentication failure_** or **_no server response_**  while at other times it would connect perfectly. On some networks it refused to let me connect at all. I have found a solution to this and now my VPN connects fine every time. Here's how:

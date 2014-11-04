@@ -203,3 +203,10 @@ ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
+a.navbar-brand{
+ padding: 10px 10px;
+}
+.navbar-header [type="button"]{
+  margin-right: 8px;
+}
+

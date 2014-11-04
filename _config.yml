@@ -15,11 +15,11 @@ title : Shadab's Blog
 tagline: Site Tagline
 author :
   name: Shadab Ahmed
-    email: shadab.ansari@gmail.com
-    github: shadabahmed
-    twitter: shadabansari
-    bio: Shadab's geeky blog!
-    email_md5: bc74012c0baceece3199f6902acc20ba
+  email: shadab.ansari@gmail.com
+  github: shadabahmed
+  twitter: shadabansari
+  bio: Shadab's geeky blog!
+  email_md5: bc74012c0baceece3199f6902acc20ba
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt

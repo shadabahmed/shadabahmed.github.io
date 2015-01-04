@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fix for Passenger “unexpected end of file detected”"
+title: "Fix for Passenger `unexpected end of file detected`"
 description: ""
 category: rails
 tags: [rails, passenger]

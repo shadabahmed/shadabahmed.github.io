@@ -1,3 +1,5 @@
+<div class="col-sm-8 col-sm-offset-3">
+
 <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
@@ -72,23 +74,20 @@
 		<hr>
 
 		<div>
-      <section class="share col-sm-6">
+      <section class="share col-sm-12">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text={{page.title | encode}}{% if site.author.twitter%}&via={{site.author.twitter}}{% endif %}"
-           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-          <i class="fa fa-twitter fa-lg"></i>
-          Twitter
-        </a>
-        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
-           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-          <i class="fa fa-facebook fa-lg"></i>
-          Facebook
-        </a>
-        <a class="btn btn-default btn-sm gplus"
-           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
-          <i class="fa fa-google-plus fa-lg"></i>
-          Google+
-        </a>
+        <div class="hn-share col-sm-2">
+          <a href="https://news.ycombinator.com/submit" class="hn-button" data-title="{{page.title}}" data-url="{{ site.production_url }}{{ page.url }}" data-count="horizontal">Vote on Hacker News</a>
+        </div>
+        <div class="fb-like col-sm-2">
+          <div class="fb-share-button" data-href="{{ site.production_url }}{{ page.url }}" data-layout="button_count"></div>
+        </div>
+        <div class="tw-tweet col-sm-2">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.production_url }}{{ page.url }}">Tweet</a>
+        </div>
+        <div class="g+ col-sm-2">
+          <div class="g-plusone" data-size="medium" data-href="{{ site.production_url }}{{ page.url }}"></div>
+        </div>
       </section>
     </div>
 
@@ -109,9 +108,14 @@
 
 		<hr>
 	</div>
+  {% include JB/comments %}
 
 	<div class="col-sm-2 sidebar-2">
 
 	</div>
 </article>
 <div class="clearfix"></div>
+  <footer>
+    <hr/>
+  </footer>
+</div>

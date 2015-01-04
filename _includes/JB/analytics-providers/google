@@ -1,6 +1,9 @@
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.JB.analytics.google.tracking_id }}']);
+  {% if site.development %}
+  _gaq.push(["_setDomainName", "none"]);
+  {% endif %}
   _gaq.push(['_trackPageview']);
 
   (function() {

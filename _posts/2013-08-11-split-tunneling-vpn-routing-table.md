@@ -2,7 +2,7 @@
 layout: post
 title: "Split Tunneling on VPN via Routing Table"
 description: ""
-category: Networking
+category: networking
 tags: [linux, networking]
 permalink: blog/2013/08/11/split-tunneling-vpn-routing-table
 ---

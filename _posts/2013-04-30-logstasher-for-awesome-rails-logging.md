@@ -2,7 +2,7 @@
 layout: post
 title: "Logstasher - For awesome Rails logging"
 description: ""
-category: 
+category: rails
 tags: [rails]
 permalink: blog/2013/04/30/logstasher-for-awesome-rails-logging
 ---

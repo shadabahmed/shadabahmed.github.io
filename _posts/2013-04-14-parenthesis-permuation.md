@@ -2,7 +2,7 @@
 layout: post
 title: "Parenthesis Permutation"
 description: ""
-category: Algorithms 
+category: algorithms
 tags: [ruby, algorithms]
 permalink: blog/2013/04/14/parenthesis-permuation
 ---

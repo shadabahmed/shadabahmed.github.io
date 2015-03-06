@@ -2,7 +2,7 @@
 layout: post
 title: "RangeCountTree - A BST for range intersections"
 description: ""
-category: Algorithms 
+category: algorithms
 tags: [ruby, algorithms]
 permalink: blog/2013/03/09/rangecounttree-a-binary-search-tree-for-ranges
 ---

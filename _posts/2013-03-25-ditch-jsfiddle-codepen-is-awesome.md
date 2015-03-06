@@ -2,7 +2,7 @@
 layout: post
 title: "Ditch jsFiddle - Codepen is awesome"
 description: ""
-category: Javascript
+category: javascript
 tags: [javascript, html]
 permalink: blog/2013/03/25/ditch-jsfiddle-codepen-is-awesome
 ---

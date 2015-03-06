@@ -2,7 +2,7 @@
 layout: post
 title: "Inside Git Guts"
 description: ""
-category: Git
+category: git
 tags: [git, ruby]
 permalink: blog/2014/03/18/inside-git-guts
 ---

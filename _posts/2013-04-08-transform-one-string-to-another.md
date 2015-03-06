@@ -2,7 +2,7 @@
 layout: post
 title: "Transform One String to Another"
 description: ""
-category: Algorithms
+category: algorithms
 tags: [ruby, algorithms]
 permalink: blog/2013/04/08/transform-one-string-to-another
 ---

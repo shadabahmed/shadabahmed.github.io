@@ -2,7 +2,7 @@
 layout: post
 title: "Skyline Algorithm - A Binary Tree Approach"
 description: ""
-category: Algorithms 
+category: algorithms
 tags: [algorithms]
 permalink: blog/2013/04/24/skyline-algorithm-a-binary-tree-approach
 ---

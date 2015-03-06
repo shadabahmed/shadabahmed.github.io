@@ -2,7 +2,7 @@
 layout: post
 title: "Puzzle - A surpassing problem"
 description: ""
-category: 
+category: algorithms
 tags: [ruby, algorithms]
 permalink: blog/2013/03/18/puzzle-a-surpassing-problem
 ---

@@ -4,6 +4,7 @@ title: "Integrating Slack With Github Enterprise"
 description: ""
 category: git
 tags: [slack, github, git]
+permalink: git/2015/03/06/integrating-slack-with-github-enterprise
 ---
 {% include JB/setup %}
 

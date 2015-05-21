@@ -10,7 +10,7 @@ tags: [linux]
 Recently I had deployed my node app on one of the overloaded linux servers, I was using. It uses `cluster` node library, which also sends me notification if any child process is killed and then it respawns the child. 
 
 So ever since deployment, everyday around lunch, I would get a hella-lot of emails about the child processes being killed. The weird thing was that every one of the child process were receiving `SIGKILL`, thus someone was killing them.
-During the carnage which would last for around 2-3 hours, even processes such as `npm install` would just be killed as mercilessly.
+During the carnage which would last for around 2-3 hours, even processes such as `npm install` would be killed, just as mercilessly.
 
 Shutting down a few processes did help. It slowed down the killing, but did not stop it completely. Only passing of time would stop it, so by late evening till next day lunch, the carnage was again silent.
 

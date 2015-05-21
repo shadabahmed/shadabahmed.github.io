@@ -25,7 +25,7 @@ So next day, I figured out what other thing was happening at the same time. It t
 
 
 
-This server was super-contrained for memory. Obviously not ideal amount of **RAM** and even worse **SWAP** space but this was a `sandbox` server, so a bit of unsettleness dint matter so much. Looking at more logs for `oom killer`:
+This server was super-contrained for memory and the kernel `OOM Killer` kicked in to reclaim memory. Obviously not ideal amount of **RAM** and even worse **SWAP** space but this was a `sandbox` server, so a bit of unsettleness dint matter so much. Looking at more logs for `oom killer`:
 
     grep -i 'kill' /var/log/messages | awk -F 'kernel:' '{print $2}'
      [1776235.313736] PassengerHel/ei invoked oom-killer: gfp_mask=0x201da, order=0, oom_adj=0

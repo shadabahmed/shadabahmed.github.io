@@ -42,7 +42,7 @@ This server was super-contrained for memory. Obviously not ideal amount of **RAM
      [1776766.313548] Killed process 8259 (python)
      ...truncated
      
-As sou can see, `OOM Killer` killed a number of processes. The best way to resolve this `OOM Killing` is to add more **RAM** and **SWAP** space. You can see more helpful reference for the `OOM Killer` here:
+As sou can see, `OOM Killer` killed a number of processes. The best way to resolve this `OOM Killing`, is to add more **RAM** and **SWAP** space. You can see more helpful reference for the `OOM Killer` here:
 
 [oom-killer](http://www.oracle.com/technetwork/articles/servers-storage-dev/oom-killer-1911807.html)
 

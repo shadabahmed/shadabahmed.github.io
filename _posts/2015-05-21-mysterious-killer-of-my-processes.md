@@ -7,7 +7,7 @@ tags: [linux]
 ---
 {% include JB/setup %}
 
-Recently I had deployed my node app on of the overloaded linux servers, I was using. It uses `cluster` node library, which also sends me notification if any child process it killed and respawn the child. 
+Recently I had deployed my node app on one of the overloaded linux servers, I was using. It uses `cluster` node library, which also sends me notification if any child process is killed and then it respawns the child. 
 
 So ever since deployment, everyday around lunch, I would get a hella-lot of emails about the child processes being killed. The weird thing was that everyone of the child process were receiving `SIGKILL`, thus someone was killing them.
 During the carnage which would last for around 2-3 hours, even processes such as `npm install` would just be killed as mercilessly.

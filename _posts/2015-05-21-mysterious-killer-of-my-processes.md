@@ -14,7 +14,7 @@ During the carnage which would last for around 2-3 hours, even processes such as
 
 Shutting down a few processes did help. It slowed down the killing, but did not stop it completely. Only passing of time would stop it, so by late evening till next day lunch, the carnage was again silent.
 
-So next day, I figured out what other thing was happening at the same time and turns out another team was uploading a huge data which also involved lots of processing and thus system was becoming `OOM` (Out of Memory) and the `OOM Killer` was killing was my processes. Looking at the mem stats:
+So next day, I figured out what other thing was happening at the same time and turns out another team was uploading a huge data which also involved lots of processing and thus system was becoming `OOM` (Out of Memory) and the `OOM Killer` was killing my processes. Looking at the mem stats:
 
 
     free -m

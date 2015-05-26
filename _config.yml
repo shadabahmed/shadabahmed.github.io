@@ -36,6 +36,7 @@ rss_path : feed.xml
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://shadabahmed.com
+full_production_url : http://www.shadabahmed.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

@@ -9,7 +9,7 @@ tags: [algorithms, trees]
 
 Getting back to blogging after a long time. Whatever be the reasons, just want to share a quick insight I had yesterday.
 
-Finding an in-order successor to a BST node is a pretty popular problem. While trying to think of it, I realized I could create a more elegant solution than what I could find online. I don't know if similar solutions exist but here it is anyway (explanation within the comments):
+Finding an in-order successor to a BST node is a pretty popular problem. While trying to think of it, I realized I could create a more elegant solution than what I could find online. I don't know if similar solutions exist but here is a ruby implementation anyway (explanation within the comments):
 
 ```ruby
 # let's quickly create a tree

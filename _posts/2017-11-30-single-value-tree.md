@@ -14,7 +14,7 @@ Another popular tree question:
 
 <img width="400" alt="unival_tree" src="/assets/images/unival_tree.png">
 
-Above tree was generated using the [graphviz](https://github.com/glejeune/Ruby-Graphviz) library. The result for above tree would be `6`. There is a [C++ implementation](https://crazycoderzz.wordpress.com/count-the-number-of-unival-subtrees-in-a-binary-tree/) around. The time complexity is `O(n)`.
+Above tree was generated using the [graphviz](https://github.com/glejeune/Ruby-Graphviz) library. The result for the tree above would be `6`. There is a [C++ implementation](https://crazycoderzz.wordpress.com/count-the-number-of-unival-subtrees-in-a-binary-tree/) around. The time complexity is `O(n)`.
 
 The ruby implementation looks a lot simpler owing to the fact that it can return multiple values. Here it is:
 

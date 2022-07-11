@@ -64,7 +64,7 @@ As a side challenge, I also ported the code to an almost pin-compatible [Arduino
 
 ### Final Setup
 
-Right now, I crammed the circuit, power supply etc in a cable box. I do plan to make it neater. Videos of how the whole thing works:
+Right now, I crammed the circuit, power supply etc in a cable box. I do plan to make it neater. Videos(5x speed) of how the whole thing works:
 
 <div class="vid-container row ">
   <div class="vid-border col-xs-6 nopadding">

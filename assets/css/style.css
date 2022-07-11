@@ -8,6 +8,14 @@ body{
   font-weight: 400;
 }
 
+img {
+  max-width: 800px;
+}
+
+.content {
+  padding-left: 2%;
+}
+
 .sidebar {
 	position: fixed;
 	top: 0px;
@@ -131,7 +139,7 @@ article {
 
 article.home div a, article.home pre a { color: #2c3e50; }
 article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
-article img { max-width: 100%; text-align: center;}
+article img { text-align: center;}
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Merriweather', sans-serif; }
 article.home h1,
@@ -226,6 +234,7 @@ img.centered {
   border-radius: 6px;
   height: 622.45px;
   border-right: none;
+  max-width: 1000px;
 }
 
 video{
@@ -243,7 +252,7 @@ video{
   max-width: 100%;
   text-align: center;
   position: absolute;
-  width: 45%;
+  width: 30%;
   top: -.9%;
   left: -1.2%;
   z-index: 1000;

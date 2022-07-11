@@ -37,14 +37,14 @@ Here's a block diagram of the final solution:
 ![Block Diagram](/assets/images/block_diagram.png){:.centered}
 {: refdef}
 
-The two time-of-flight(TOF) distance sensors are [VL53L0x](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html){:target="_blank"} sensors I brought from [Amazon](https://www.amazon.com/HiLetgo-VL53L0X-Distance-Measurement-Breakout/dp/B071DW8M8V/){:target="_blank"}. These are pretty accurate from 20mm to 2000mm. These are placed behind the TV on the opposite ends to detect the distance from the wall as well as the swivel angle.
+The two time-of-flight(TOF) distance sensors are [VL53L0x](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html){:target="_blank"} sensors I bought from [Amazon](https://www.amazon.com/HiLetgo-VL53L0X-Distance-Measurement-Breakout/dp/B071DW8M8V/){:target="_blank"}. These are pretty accurate from 20mm to 2000mm. These are placed behind the TV on the opposite ends to detect the distance from the wall as well as the swivel angle.
 
 ![TV Mount Image](/assets/images/motion.png)
 ![TV Mount Image](/assets/images/top_image.png)
 
 ### The Circuit
 
-The circuit is just soldered on two separate prototype PCBs, layered one over another. The top part contains the Arduino and connectors for the sensors. Also has a USB connector for the cable coming from the TV for TV On/Off detection. The bottom part contains the two H-bridges for the two motors in the mount(up/down and swivel). There's a [DC/DC converter](https://www.amazon.com/gp/product/B01MQGMOKI/){:target="_blank"} as well for running the Arduino from the 24V power supply.
+The circuit is just soldered on two separate prototype PCBs, layered one over another. The top part contains the Arduino and connectors for the sensors. Also has a USB connector for the cable coming from the TV for TV On/Off detection. The bottom part contains the two H-bridges for the two motors in the mount(up/down and swivel). There's a [DC/DC converter](https://www.amazon.com/gp/product/B01MQGMOKI/){:target="_blank"} as well, for running the Arduino from the 24V power supply.
 
 ![TV Mount Image](/assets/images/pcb.png)
 
@@ -54,11 +54,11 @@ Fits nearly perfectly in this [enclosure](https://www.amazon.com/gp/product/B08P
 
 ### The Code
 
+[Github Repo](https://github.com/shadabahmed/smarter_tv_mount){:target="_blank"}
+
 The code is written in C++ using the Arduino framework. I initially started coding in Arduino IDE but as the code got bigger, switched over to the Jetbrains CLion using the Platform IO framework. I must say that CLion is so much better to write code in!
 
-The main part of the code is a state machine that manages the various states and transitions based on the inputs from the remote/sensors. You can find the code with libs here: 
-
-[Github Repo](https://github.com/shadabahmed/smarter_tv_mount){:target="_blank"}
+The main part of the code is a state machine that manages the various states and transitions based on the inputs from the remote/sensors.
 
 As a side challenge, I also ported the code to an almost pin-compatible [Arduino Nano RP2040](https://docs.arduino.cc/hardware/nano-rp2040-connect){:target="_blank"}, which is based on the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/){:target="_blank"} microcontroller. 
 

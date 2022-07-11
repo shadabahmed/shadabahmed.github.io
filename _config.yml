@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
-paginate: 20 # pagination based on number of posts
+paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: [".ruby-version", "Gemfile*", "README.md", "Rakefile", "changelog.md", ".idea/workspace.xml"]
 highlighter: rouge
@@ -77,7 +77,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : false
+  ASSET_PATH : /assets/
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.

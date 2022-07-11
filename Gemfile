@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 2.0'
+gem 'webrick'
+gem 'jekyll'
 gem 'rouge'
 gem 'kramdown'

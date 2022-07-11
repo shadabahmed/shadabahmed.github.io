@@ -12,7 +12,7 @@ tags: [arduino, electronics]
 
 ### Intro
 
-Since I'm on a break in-between jobs, I thought I'd revisit my old blog and post about something interesting I've done during the break. I recently installed a motorized above-fireplace TV mount since I've been wanting to place my TV above the fireplace in my home, and have a way to lower it down while watching. This [Monoprice TV Mount](/assets/media/39654_Manual_190819.pdf){:target="_blank"} seemed perfect for it:
+Since I'm on a break in-between jobs, I thought I'd revisit my old blog and post about something interesting I've done during the break. I recently installed a motorized above-fireplace TV mount since I've been wanting to place my TV above the fireplace in my home, and have a way to lower it down while watching. This [Monoprice TV Mount](https://www.amazon.com/Monoprice-Motorized-Fireplace-Full-Motion-Articulating/dp/B08J9VHTZ6){:target="_blank"} seemed perfect for it:
 
 ![TV Mount Image](/assets/images/concept.png)
 

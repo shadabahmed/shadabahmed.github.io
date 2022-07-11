@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A smarter TV Mount with Arduino"
+title: "A Smarter TV Mount with Arduino"
 description: "How I made a motorized TV Mount better with Arduino"
 category: 
 tags: [arduino, electronics]
@@ -14,7 +14,7 @@ tags: [arduino, electronics]
 
 Since I'm on a break in-between jobs, I thought I'd revisit my old blog and post about something interesting I've done during the break. I recently installed a motorized above-fireplace TV mount since I've been wanting to place my TV above the fireplace in my home, and have a way to lower it down while watching. This [Monoprice TV Mount](/assets/media/39654_Manual_190819.pdf) seemed perfect for it:
 
-![TV Mount Image](/assets/media/concept.png)
+![TV Mount Image](/assets/images/concept.png)
 
 It does handle the weight pretty well. However, a few major issues:
 * The remote is horrible. It picks up IR signals from the tv remote and moves on things like volume up/down/mute etc. Super annoying!

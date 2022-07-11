@@ -11,7 +11,7 @@ tags: [arduino, electronics]
 {:toc}
 
 ### TLDR;
-Used an Arduino Nano to make a TV Mount smarter. Jump to [Final Setup](#final-setup) for a demonstration
+Used an Arduino Nano to make a TV Mount smarter. Jump to the [Final Setup](#final-setup) section for a demo video.
 
 ### Intro
 

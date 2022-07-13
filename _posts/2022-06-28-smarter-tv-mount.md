@@ -20,7 +20,7 @@ Since I'm on a break in-between jobs, I thought I'd revisit my old blog and post
 ![TV Mount Image](/assets/images/concept.png){:.media-left}
 
 It does handle the weight pretty well. However, a few major issues:
-* The remote is horrible. It picks up IR signals from the tv remote and moves on things like volume up/down/mute etc. Super annoying!
+* The remote is horrible. It picks up IR signals from the TV remote and moves on things like volume up/down/mute etc. Super annoying!
 * It has a powerful motor, but no sensor to stop if something is obstructing. It literally can crush anything which comes in its way.
 * If you press the up button for too long, the motor keeps hammering as it's stuck at the top-most position and doesn't know it should stop.
 * At the top-most position, you can still swivel the TV right/left, possibly hitting the wall. Guaranteed to damage the TV or the wall behind it.
@@ -30,7 +30,7 @@ I decided to make it better with features like:
 * Detect if the TV is too close to the wall and prevent any further moving up to prevent damage to the mount or the TV
 * Detect motor stalls or obstructions by measuring motor current and stop the motors in such fault conditions
 * Move the mount to the rest position(top-most) automatically, when the TV is turned OFF
-* Similarly, move the mount to the viewing position(bottom most) automatically, when the TV is turned ON
+* Similarly, move the mount to the viewing position(bottom-most) automatically, when the TV is turned ON
 
 ### Components
 
@@ -38,7 +38,7 @@ Here's a block diagram of the whole system:
 
 ![Block Diagram](/assets/images/block_diagram.png){:.media-left}
 
-The two time-of-flight(TOF) distance sensors are [VL53L0x](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html){:target="_blank"} sensors I bought from [Amazon](https://www.amazon.com/HiLetgo-VL53L0X-Distance-Measurement-Breakout/dp/B071DW8M8V/){:target="_blank"}. These are pretty accurate from 20mm to 2000mm. These are placed behind the TV on the opposite ends to detect the distance from the wall as well as the swivel angle.
+The two time-of-flight(TOF) distance sensors are [VL53L0x](https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html){:target="_blank"} sensors I bought from [Amazon](https://www.amazon.com/HiLetgo-VL53L0X-Distance-Measurement-Breakout/dp/B071DW8M8V/){:target="_blank"}. These are pretty accurate from 20mm to 2000mm. These are placed behind the TV on the opposite ends to detect the distance from the wall, as well as the swivel angle.
 
 ![TV Mount Image](/assets/images/motion.png){:.media-left}
 ![TV Mount Image](/assets/images/top_image.png){:.media-left}
@@ -59,7 +59,7 @@ Fits nearly perfectly in this [enclosure](https://www.amazon.com/gp/product/B08P
 
 The code is written in C++ using the Arduino framework. I initially started coding in Arduino IDE but as the code got bigger, switched over to the Jetbrains CLion using the Platform IO framework. I must say that CLion is so much better to write code in!
 
-The main part of the code is a state machine that manages the various states and transitions based on the inputs from the remote/sensors.
+The main part of the code is a state machine, that manages the various states and transitions based on the inputs from the remote/sensors.
 
 As a side challenge, I also ported the code to an almost pin-compatible [Arduino Nano RP2040](https://docs.arduino.cc/hardware/nano-rp2040-connect){:target="_blank"}, which is based on the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/){:target="_blank"} microcontroller. 
 
@@ -101,4 +101,4 @@ This has been a fun little project to do, and pretty useful as well. I last code
 * The diversity in the microcontroller choice is also supplemented by a good set of frameworks like Arduino, Platform IO etc. Not too hard to write portable code without a lot of changes like I did with Arduino Nano RP2040
 * You can virtually find any sensor on Amazon, Sparkfun, AdaFruit or many other sites.
 
-Overall so much easier to do your hobby projects today. I too hope to pick up a few other cool projects as well. Will keep you posted. Cheers !!!!
+Overall so much easier to do your hobby projects today. I too hope to pick up a few other cool projects as well. Will keep you posted. Cheers !!!!ß

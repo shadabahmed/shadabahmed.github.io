@@ -20,4 +20,4 @@ After giving it a bit of thought, I implemented an interesting data structure to
 
 Here's the tree generated for the data in scientists.rb(using graphviz):
 
-![tree](http://i.imgur.com/Ss7FYI0.png)
+![tree](/assets/images/Ss7FYI0.png){: style="width:419px" }

@@ -78,4 +78,4 @@ To analyze your site performance, heroku supports \*[New Relic](http://newrelic.
 
 Now in your app, add this like to your *Gemfile* - `gem 'newrelic_rpm'`. Now copy this file \*[newrelic.yml](https://raw.github.com/gist/1356704/c4ed42dba2d0df80b913b1869374f99cc2ea9cc1/newrelic.yml*), and save it in your config directory. Then do the usual steps of committing and pushing to Heroku and you'll be done. To view New Relic stats, just goto your app page on heroku, click on **Addons**, you will see **New Relic** in the list. Click on that link to open the awesome dashboard like shown below:
 
-![](http://i.imgur.com/KJuG8zY.png)
+![](/assets/images/KJuG8zY.png){: style="width:659px" }

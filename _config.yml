@@ -9,6 +9,7 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  toc_levels: 2..2
 safe: true
 
 # Themes are encouraged to use these universal variables
@@ -115,3 +116,7 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+
+toc:
+  min_level: 1
+  max_level: 1

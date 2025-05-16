@@ -11,7 +11,7 @@ tags: [electronics, modding, robotics]
 * TOC
 {:toc}
 
-Working in robotics often means dealing with reliable yet noisy Meanwell power supplies. Unfortunately, the tiny 40mm fans inside these units are incredibly loud, significantly affecting comfort and actually worsened my tinnitus. In an effort to reclaim some sanity, I embarked on a modding adventure to silence my Meanwell PSU. Here’s a straightforward guide on how you can do the same. The specidic model I worked with is 
+Working in robotics often means dealing with reliable yet noisy Meanwell power supplies. Unfortunately, the tiny 40mm fans inside the specific models I work with, are incredibly loud, significantly affecting comfort and actually worsened my tinnitus. In an effort to reclaim some sanity, I embarked on a modding adventure to silence my Meanwell PSU. Here’s a straightforward guide on how you can do the same. The specific model I worked with is 
 <a href="https://www.meanwell.com/Upload/PDF/RSP-2000/RSP-2000-SPEC.PDF" target="_blank" rel="noopener noreferrer">RSP-2000</a>
 
 

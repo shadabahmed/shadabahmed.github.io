@@ -105,7 +105,7 @@ I also used aluminum metal tape (used on dryer vents) to secure loose cables
 
 ## Final Result
 
-Enjoy your newly quiet, cool-running Meanwell power supply. My PSU is now effectively unnoticeable and temperatures are good to touch even at load. Here's my completed mod in it's full RGB glory:
+Enjoy your newly quiet, cool-running Meanwell power supply. My PSU is now effectively unnoticeable and temperatures are good to touch even at load. Here's my completed mod in it's full RGB glory powering both the motherboard (via pico-itx) and also the robot arm:
 
 ![Meanwell Modded PSU RGB](/assets/images/fan_mod/case.gif){: style="width:400px" }
 
